@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 const { version } = require('node:process');
 
 console.log(`Version: ${version}`);
@@ -24,7 +24,7 @@ console.log(env.test);
 env.test = undefined;
 console.log(env.test);
 // => 'undefined'
-=======
+
 const { version } = require('node:process');
 
 console.log(`Version: ${version}`);
@@ -47,5 +47,4 @@ console.log(env.test);
 // => 'null'
 env.test = undefined;
 console.log(env.test);
-// => 'undefined'
->>>>>>> d91046f8f266c92ede0280d60f37a64e917da330
+
